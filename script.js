@@ -5,7 +5,7 @@ function incrementCount(){
 	let counter = 0;
 
 	incrementBtn.addEventListener("click", function(){
-		alert('previous value: ${counter}');
+		alert(counter);
 		counter++;
 		 count.textContent = counter;
 	});
